@@ -46,18 +46,18 @@ if (!$query) {
 <body>
     <h3 align="center">Masukkan data aktiva</h3>
 <center><div>
-<form action="tambah-action.php" method="post" class="formulir" align="center">
-<p><label>Kode Aktiva :</label> <input type="text" name="kd_aktiva" required> 
+<form action="tambah-action.php" method="post" class="formulir" align="center" target="_self">
+<p><label for="Kode_Aktiva">Kode Aktiva :</label> <input type="text" id="Kode_Aktiva" name="kd_aktiva" required="submit"> 
     <br><br>
-    <label>Nama Aktiva :</label> <input type="text" name="nm_aktiva" required>
+    <label for="Nama_Aktiva">Nama Aktiva :</label> <input type="text" id="Nama_Aktiva"name="nm_aktiva" required="submit">
     <br><br>
-    <label>Harga Peroleh :</label> <input type="int" name="hrg_peroleh" required>
+    <label>Harga Peroleh :</label> <input type="int" name="hrg_peroleh" required="submit">
     <br><br>
-    <label>Tanggal Diperoleh :</label> <input type="date" name="tgl_diperoleh" required>
+    <label for="Tgl_diperoleh">Tanggal Diperoleh :</label> <input type="date" id="Tgl_diperoleh"name="tgl_diperoleh" required="submit">
     <br><br>
-    <label>Nilai Residu :</label> <input type="int" name="nilai_residu" required>
+    <label>Nilai Residu :</label> <input type="int" name="nilai_residu" required="submit">
     <br><br>
-    <label>Umur Ekonomis :</label> <input type="int" name="umur_ekonomis" required>Tahun
+    <label>Umur Ekonomis :</label> <input type="int" name="umur_ekonomis" required="submit">Tahun
 </p>
     <input type="submit" class="submit" value="Masukkan Data" onclick="window.location='index.php'">
 </form>
