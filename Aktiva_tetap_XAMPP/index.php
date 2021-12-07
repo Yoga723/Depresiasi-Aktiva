@@ -148,7 +148,6 @@ if (!$query) {
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">App</a></li>
-			<li><a href="#">Contact</a></li>
 		</ul>
 	</nav>
 </div>
@@ -193,5 +192,29 @@ if (!$query) {
 	</table>
 </center>
 </div>
+
+<p> Hello World! ini test yang baru </p>
+
+<<table class="table table-bordered table-inverse table-responsive">
+	<thead class="thead-default">
+		<tr>
+			<th>Hello</th>
+			<th>World</th>
+			<th>!</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">Test</td>
+				<td>Satu</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td scope="row">Test</td>
+				<td>Dua</td>
+				<td>3(tiga)</td>
+			</tr>		
+		</tbody>
+</table>
 </body>
 </html>	
